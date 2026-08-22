@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Diccionario Zapoteco</title>
+
+				<!-- Tipografía elegante -->
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+						<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+							<style>
+								* {
+								box-sizing: border-box;
+								margin: 0;
+								padding: 0;
+								}
+
+								body {
+								font-family: 'Poppins', sans-serif;
+								background-color: #f4f1ea;
+								color: #2c2c2c;
+								min-height: 100vh;
+								}
+
+								/* ==========================================
+								1. ESTILOS DE LA PORTADA ELEGANTE
+								========================================== */
+								#pantalla-portada {
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								min-height: 100vh;
+								background: linear-gradient(135deg, #1b2a4a 0%, #0d1627 100%);
+								padding: 20px;
+								transition: opacity 0.6s ease, visibility 0.6s;
+								}
+
+								.tarjeta-portada {
+								background: #faf8f5;
+								max-width: 550px;
+								width: 100%;
+								padding: 50px 40px;
+								border-radius: 12px;
+								text-align: center;
+								box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+								border: 2px solid #c5a059;
+								position: relative;
+								}
+
+								.tarjeta-portada::before {
+								content: '';
+								position: absolute;
+								top: 12px;
+								left: 12px;
+								right: 12px;
+								bottom: 12px;
+								border: 1px solid #d4af37;
+								pointer-events: none;
+								border-radius: 6px;
+								}
+
+								.icono-libro {
+								font-size: 55px;
+								margin-bottom: 15px;
+								}
+
+								.subtitulo-top {
+								text-transform: uppercase;
+								letter-spacing: 3px;
+								font-size: 0.85rem;
+								color: #8c733e;
+								font-weight: 600;
+								margin-bottom: 10px;
+								}
+
+								.titulo-principal {
+								font-family: 'Cinzel', serif;
+								font-size: 2.4rem;
+								color: #1b2a4a;
+								font-weight: 700;
+								line-height: 1.2;
+								margin-bottom: 15px;
+								}
+
+								.separador-dorado {
+								width: 80px;
+								height: 3px;
+								background: #c5a059;
+								margin: 20px auto;
+								border-radius: 2px;
+								}
+
+								.descripcion-portada {
+								font-size: 0.98rem;
+								color: #555;
+								line-height: 1.6;
+								margin-bottom: 35px;
+								}
+
+								.btn-entrar {
+								background-color: #1b2a4a;
+								color: #ffffff;
+								border: 2px solid #c5a059;
+								padding: 14px 36px;
+								font-size: 1rem;
+								font-weight: 600;
+								border-radius: 30px;
+								cursor: pointer;
+								transition: all 0.3s ease;
+								box-shadow: 0 4px 15px rgba(27, 42, 74, 0.3);
+								letter-spacing: 1px;
+								}
+
+								.btn-entrar:hover {
+								background-color: #c5a059;
+								color: #1b2a4a;
+								transform: translateY(-2px);
+								box-shadow: 0 6px 20px rgba(197, 160, 89, 0.4);
+								}
+
+								.creditos-footer {
+								margin-top: 30px;
+								font-size: 0.85rem;
+								color: #777;
+								line-height: 1.5;
+								}
+
+								.creditos-footer strong {
+								color: #1b2a4a;
+								}
+
+								/* ==========================================
+								2. PANTALLA DEL BUSCADOR Y TARJETAS
+								========================================== */
+								#pantalla-buscador {
+								display: none;
+								opacity: 0;
+								transition: opacity 0.6s ease;
+								max-width: 900px;
+								margin: 40px auto;
+								padding: 0 20px;
+								}
+
+								.header-buscador {
+								display: flex;
+								justify-content: space-between;
+								align-items: center;
+								background: #1b2a4a;
+								color: white;
+								padding: 20px 30px;
+								border-radius: 10px 10px 0 0;
+								}
+
+								.header-buscador h2 {
+								font-family: 'Cinzel', serif;
+								font-size: 1.5rem;
+								}
+
+								.btn-volver {
+								background: transparent;
+								border: 1px solid #c5a059;
+								color: #fff;
+								padding: 8px 16px;
+								border-radius: 20px;
+								cursor: pointer;
+								font-weight: 600;
+								transition: 0.3s;
+								}
+
+								.btn-volver:hover {
+								background: #c5a059;
+								color: #1b2a4a;
+								}
+
+								.caja-busqueda-container {
+								background: #ffffff;
+								padding: 30px;
+								box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+								border-radius: 0 0 10px 10px;
+								}
+
+								.input-wrapper {
+								position: relative;
+								margin-bottom: 25px;
+								}
+
+								#inputBuscar {
+								width: 100%;
+								padding: 15px 20px;
+								font-size: 1.1rem;
+								border: 2px solid #ddd;
+								border-radius: 8px;
+								outline: none;
+								transition: border-color 0.3s;
+								}
+
+								#inputBuscar:focus {
+								border-color: #1b2a4a;
+								}
+
+								#resultadosBusqueda {
+								display: flex;
+								flex-direction: column;
+								gap: 15px;
+								max-height: 600px;
+								overflow-y: auto;
+								}
+
+								.tarjeta-resultado {
+								background: #faf8f5;
+								border-left: 5px solid #1b2a4a;
+								padding: 20px;
+								border-radius: 6px;
+								box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+								position: relative;
+								}
+
+								.encabezado-palabra {
+								display: flex;
+								align-items: center;
+								gap: 12px;
+								}
+
+								.palabra-zapoteco {
+								font-size: 1.3rem;
+								font-weight: 700;
+								color: #1b2a4a;
+								}
+
+								.btn-audio {
+								background: #1b2a4a;
+								color: #c5a059;
+								border: none;
+								width: 36px;
+								height: 36px;
+								border-radius: 50%;
+								cursor: pointer;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								font-size: 1rem;
+								transition: all 0.2s ease;
+								}
+
+								.btn-audio:hover {
+								background: #c5a059;
+								color: #1b2a4a;
+								transform: scale(1.1);
+								}
+
+								.palabra-espaniol {
+								font-size: 1.1rem;
+								color: #444;
+								margin-top: 6px;
+								}
+
+								.categoria-badge {
+								display: inline-block;
+								background: #e2d9c5;
+								color: #5a4a28;
+								font-size: 0.75rem;
+								padding: 3px 10px;
+								border-radius: 12px;
+								margin-top: 8px;
+								font-weight: 600;
+								}
+
+								.ejemplos {
+								margin-top: 10px;
+								font-size: 0.95rem;
+								color: #666;
+								font-style: italic;
+								border-top: 1px dashed #ddd;
+								padding-top: 8px;
+								}
+
+								.sin-resultados {
+								text-align: center;
+								color: #777;
+								padding: 30px;
+								font-size: 1rem;
+								}
+							</style>
+						</head>
+	<body>
+
+		<!-- PORTADA DE PRESENTACIÓN -->
+		<div id="pantalla-portada">
+			<div class="tarjeta-portada">
+				<div class="subtitulo-top">Dizá / Lengua Zapoteca</div>
+				<div class="icono-libro">📖</div>
+				<h1 class="titulo-principal">
+					DICCIONARIO<br>ZAPOTECO de Macuilxóchitl Oaxaca.
+            </h1>
+				<div class="separador-dorado"></div>
+				<p class="descripcion-portada">
+					Vocabulario interactivo y consulta lingüística general.
+				</p>
+				<button class="btn-entrar" onclick="abrirBuscador()">CONSULTAR DICCIONARIO</button>
+
+				<!-- Créditos de Autoría -->
+				<div class="creditos-footer">
+					Trabajo realizado por <strong>Roberto Hernández</strong><br>
+                Todos los derechos reservados &copy; 2026
+            
+				</div>
+			</div>
+		</div>
+
+		<!-- PANTALLA DEL BUSCADOR Y RESULTADOS -->
+		<div id="pantalla-buscador">
+			<div class="header-buscador">
+				<h2>Buscador de Palabras</h2>
+				<button class="btn-volver" onclick="volverPortada()">← Portada</button>
+			</div>
+
+			<div class="caja-busqueda-container">
+				<div class="input-wrapper">
+					<input type="text" id="inputBuscar" placeholder="Escribe una palabra en zapoteco o español..." autocomplete="off">
+            </div>
+
+				<div id="resultadosBusqueda">
+					<div class="sin-resultados">Comienza a escribir para buscar en el diccionario...</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SCRIPT DE NAVEGACIÓN Y BÚSQUEDA -->
+		<script>
+			function abrirBuscador() {
+			const portada = document.getElementById('pantalla-portada');
+			const buscador = document.getElementById('pantalla-buscador');
+
+			portada.style.opacity = '0';
+			setTimeout(() => {
+			portada.style.display = 'none';
+			buscador.style.display = 'block';
+			setTimeout(() => {
+			buscador.style.opacity = '1';
+			document.getElementById('inputBuscar').focus();
+			}, 50);
+			}, 600);
+			}
+
+			function volverPortada() {
+			const portada = document.getElementById('pantalla-portada');
+			const buscador = document.getElementById('pantalla-buscador');
+
+			buscador.style.opacity = '0';
+			setTimeout(() => {
+			buscador.style.display = 'none';
+			portada.style.display = 'flex';
+			setTimeout(() => {
+			portada.style.opacity = '1';
+			}, 50);
+			}, 600);
+			}
+
+			function reproducirAudio(nombreArchivo) {
+			if (!nombreArchivo) return;
+
+			let ruta = nombreArchivo.trim();
+
+			// Asegurar que la ruta empiece con la raíz /static/audio/
+			if (!ruta.includes('/')) {
+			ruta = `/static/audio/${ruta}`;
+			} else if (!ruta.startsWith('/')) {
+			ruta = `/${ruta}`;
+			}
+
+			// encodeURI evita errores con espacios o acentos en el navegador
+			const audio = new Audio(encodeURI(ruta));
+			audio.play().catch(err => {
+			console.error("Error al reproducir:", err, "en la ruta:", ruta);
+			});
+			}
+
+			const inputBuscar = document.getElementById('inputBuscar');
+			const resultadosBusqueda = document.getElementById('resultadosBusqueda');
+
+			inputBuscar.addEventListener('input', function() {
+			const query = inputBuscar.value.trim();
+
+			if (query === '') {
+			resultadosBusqueda.innerHTML = '<div class="sin-resultados">Comienza a escribir para buscar en el diccionario...</div>';
+			return;
+			}
+
+			fetch(`/api/buscar?q=${encodeURIComponent(query)}`)
+			.then(response => response.json())
+			.then(data => {
+			resultadosBusqueda.innerHTML = '';
+
+			if (data.length === 0) {
+			resultadosBusqueda.innerHTML = '<div class="sin-resultados">No se encontraron palabras coincidentes.</div>';
+			return;
+			}
+
+			data.forEach(palabra => {
+			const tarjeta = document.createElement('div');
+			tarjeta.className = 'tarjeta-resultado';
+
+			let contenidoHtml = `
+			<div class="encabezado-palabra">
+				<div class="palabra-zapoteco">${palabra.zapoteco}</div>
+				${palabra.audio && palabra.audio.trim() !== '' ? '<button class="btn-audio" type="button" title="Escuchar pronunciación">🔊</button>' : ''}
+			</div>
+			<div class="palabra-espaniol">
+				<strong>Español:</strong> ${palabra.espaniol}
+			</div>
+			`;
+
+			if (palabra.categoria) {
+			contenidoHtml += `<span class="categoria-badge">${palabra.categoria}</span>`;
+			}
+
+			if (palabra.ejemplo_zapoteco || palabra.ejemplo_españiol) {
+			contenidoHtml += `
+			<div class="ejemplos">
+				<div>Zap: "${palabra.ejemplo_zapoteco || ''}"</div>
+				<div>Esp: "${palabra.ejemplo_españiol || ''}"</div>
+			</div>
+			`;
+			}
+
+			tarjeta.innerHTML = contenidoHtml;
+
+			// Asignar el evento CLICK de forma limpia
+			const btnAudio = tarjeta.querySelector('.btn-audio');
+			if (btnAudio) {
+			btnAudio.addEventListener('click', function(e) {
+			e.preventDefault();
+			reproducirAudio(palabra.audio);
+			});
+			}
+
+			resultadosBusqueda.appendChild(tarjeta);
+			});
+			})
+			.catch(error => console.error('Error en búsqueda:', error));
+			});
+		</script>
+	</body>
+</html>

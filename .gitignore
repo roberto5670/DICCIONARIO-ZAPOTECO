@@ -1,0 +1,12 @@
+# Carpetas de compilación local
+build/
+dist/
+Output/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales locales
+venv/
+.env
