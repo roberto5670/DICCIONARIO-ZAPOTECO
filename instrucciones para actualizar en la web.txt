@@ -1,0 +1,26 @@
+
+instrucciones pàra actualizar en la web.
+Proceso para aplicar actualizaciones futuras
+1. En tu computadora (PowerShell / VS Code):
+Cuando termines de modificar o agregar datos a tu proyecto local,
+ejecuta en tu terminal:
+
+git add .
+git commit -m "Actualización: Nuevas palabras o cambios agregados"
+git push origin main
+
+
+2. En PythonAnywhere (Consola Bash):
+Abre la consola Bash en PythonAnywhere y descarga los cambios desde GitHub con estas dos líneas:
+
+Bash
+cd ~/DICCIONARIO-ZAPOTECO
+git pull origin main
+
+3. Aplicar los cambios en el sitio web:
+
+Ve a la pestaña Web en PythonAnywhere.
+
+Haz clic en el botón verde Reload.
+
+¡Y listo! Con esos tres sencillos pasos tu sitio web se actualizará al instante con los nuevos datos o cambios que vayas realizando.
