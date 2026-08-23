@@ -11,10 +11,6 @@ git commit -m "Actualización: Nuevas palabras o cambios agregados"
 
 git push origin main
 
-git add datos/diccionario.csv diccionario_zapoteco.db
-git commit -m "Actualizacion de palabras"
-git push origin main
-
 
 2. En PythonAnywhere (Consola Bash):
 Abre la consola Bash en PythonAnywhere y descarga los cambios desde GitHub con estas dos líneas:
