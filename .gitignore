@@ -10,3 +10,18 @@ __pycache__/
 # Entornos virtuales locales
 venv/
 .env
+
+# Archivos de compilación / empaquetado de Windows
+*.spec
+*.bat
+*.exe
+
+# Otros archivos temporales de Python
+*.pyo
+*.pyd
+.venv/
+
+# Bases de datos temporales / respaldos
+*_BACKUP.db
+*_CONFLICTO*.db
+*_GITHUB.db
