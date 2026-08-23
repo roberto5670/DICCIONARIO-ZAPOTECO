@@ -388,7 +388,7 @@
 			return;
 			}
 
-			fetch(`/api/buscar?q=${encodeURIComponent(query)}`)
+			fetch(`/buscar?q=${encodeURIComponent(query)}`)
 			.then(response => response.json())
 			.then(data => {
 			resultadosBusqueda.innerHTML = '';
