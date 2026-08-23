@@ -23,14 +23,17 @@ def buscar():
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    query = '''
+    # Asegúrate de que esta variable 'sql' NO tenga 'ejemplo_zapoteco'
+    sql = '''
         SELECT zapoteco, espaniol, categoria, audio
         FROM palabras
         WHERE zapoteco LIKE ? OR espaniol LIKE ? OR zapoteco_normalizado LIKE ? OR espaniol_normalizado LIKE ?
         LIMIT 50
     '''
+    
     param = f'%{q}%'
-    resultados = cursor.execute(query, (param, param, param, param)).fetchall()
+    cursor.execute(sql, (param, param, param, param))
+    resultados = cursor.fetchall()
     conn.close()
 
     return jsonify([dict(row) for row in resultados])
