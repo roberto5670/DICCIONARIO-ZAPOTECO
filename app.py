@@ -24,7 +24,6 @@ def buscar():
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    # Consulta directa a la tabla palabras
     query = '''
         SELECT zapoteco, espaniol, categoria, audio
         FROM palabras
