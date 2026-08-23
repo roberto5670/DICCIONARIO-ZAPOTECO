@@ -35,9 +35,8 @@ def buscar():
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    # Búsqueda flexible que no falla
     query = '''
-        SELECT DISTINCT zapoteco, espaniol AS espanol, categoria, audio
+        SELECT zapoteco, espaniol, categoria, audio
         FROM palabras
         WHERE zapoteco_normalizado LIKE ? 
            OR espaniol_normalizado LIKE ?
@@ -48,12 +47,21 @@ def buscar():
     param = f'%{q_norm}%'
     param_raw = f'%{q}%'
     
-    resultados = cursor.execute(query, (param, param, param_raw, param_raw)).fetchall()
-    conn.close()
+    try:
+        resultados = cursor.execute(query, (param, param, param_raw, param_raw)).fetchall()
+        conn.close()
 
-    # Convertir a lista de diccionarios
-    data = [dict(row) for row in resultados]
-    return jsonify(data)
+        data = []
+        for row in resultados:
+            item = dict(row)
+            # Garantizar compatibilidad con el JS del HTML
+            item['español'] = item.get('espaniol', '')
+            data.append(item)
+
+        return jsonify(data)
+    except Exception as e:
+        conn.close()
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
