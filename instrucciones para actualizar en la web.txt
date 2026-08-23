@@ -6,7 +6,13 @@ Cuando termines de modificar o agregar datos a tu proyecto local,
 ejecuta en tu terminal:
 
 git add .
+
 git commit -m "Actualización: Nuevas palabras o cambios agregados"
+
+git push origin main
+
+git add datos/diccionario.csv diccionario_zapoteco.db
+git commit -m "Actualizacion de palabras"
 git push origin main
 
 
@@ -14,7 +20,9 @@ git push origin main
 Abre la consola Bash en PythonAnywhere y descarga los cambios desde GitHub con estas dos líneas:
 
 Bash
+
 cd ~/DICCIONARIO-ZAPOTECO
+
 git pull origin main
 
 3. Aplicar los cambios en el sitio web:
