@@ -14,7 +14,6 @@ def get_db_connection():
 @app.route('/')
 def index():
     return render_template('index.html')
-
 @app.route('/buscar', methods=['GET'])
 def buscar():
     q = request.args.get('q', '').strip()
@@ -35,6 +34,7 @@ def buscar():
     conn.close()
 
     return jsonify([dict(row) for row in resultados])
+
 
 if __name__ == '__main__':
     app.run(debug=True)
