@@ -1,34 +1,12 @@
-import os
-import sys
+from flask import Flask, render_template, request, jsonify
 import sqlite3
+import os
 import unicodedata
-import webbrowser
-from threading import Timer
-from flask import Flask, jsonify, render_template, request
 
-def obtener_ruta_base():
-    """Obtiene la ruta base absoluta tanto en desarrollo como en el ejecutable PyInstaller."""
-    if hasattr(sys, '_MEIPASS'):
-        return sys._MEIPASS
-    return os.path.dirname(os.path.abspath(__file__))
-
-# Configurar Flask para que encuentre las carpetas de diseño (templates y static) compiladas
-ruta_base = obtener_ruta_base()
-app = Flask(
-    __name__,
-    template_folder=os.path.join(ruta_base, 'templates'),
-    static_folder=os.path.join(ruta_base, 'static')
-)
-
-def obtener_conexion():
-    """Conecta a la base de datos en la ruta empaquetada."""
-    ruta_db = os.path.join(obtener_ruta_base(), 'diccionario_zapoteco.db')
-    conn = sqlite3.connect(ruta_db)
-    conn.row_factory = sqlite3.Row
-    return conn
+app = Flask(__name__)
 
 def normalizar_texto(texto):
-    if not texto:
+    if not isinstance(texto, str) or not texto:
         return ""
     texto = texto.lower()
     texto = unicodedata.normalize('NFD', texto)
@@ -36,45 +14,46 @@ def normalizar_texto(texto):
     texto = texto.replace("'", "").replace("’", "").replace("`", "")
     return texto.strip()
 
+def get_db_connection():
+    dir_proyecto = os.path.dirname(os.path.abspath(__file__))
+    ruta_db = os.path.join(dir_proyecto, 'diccionario_zapoteco.db')
+    conn = sqlite3.connect(ruta_db)
+    conn.row_factory = sqlite3.Row
+    return conn
+
 @app.route('/')
-def inicio():
+def index():
     return render_template('index.html')
 
-@app.route('/api/buscar', methods=['GET'])
+@app.route('/buscar', methods=['GET'])
 def buscar():
-    busqueda = request.args.get('q', '').strip()
-    
-    if not busqueda:
+    q = request.args.get('q', '').strip()
+    if not q:
         return jsonify([])
-    
-    busqueda_norm = normalizar_texto(busqueda)
-    conn = obtener_conexion()
-    cursor = conn.cursor()
-    
-    sql = '''
-        SELECT 
-            id, zapoteco, espaniol, categoria, ejemplo_zapoteco, ejemplo_españiol, audio 
-        FROM palabras 
-        WHERE zapoteco_normalizado LIKE ? 
-           OR espaniol_normalizado LIKE ? 
-           OR zapoteco LIKE ? 
-           OR espaniol LIKE ?
-        LIMIT 30
-    '''
-    param_like = f"%{busqueda_norm}%"
-    param_orig = f"%{busqueda}%"
-    
-    cursor.execute(sql, (param_like, param_like, param_orig, param_orig))
-    filas = cursor.fetchall()
-    
-    resultados = [dict(fila) for fila in filas]
-    conn.close()
-    
-    return jsonify(resultados)
 
-def abrir_navegador():
-    webbrowser.open_new('http://127.0.0.1:5000/')
+    q_norm = normalizar_texto(q)
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    # Búsqueda flexible que no falla
+    query = '''
+        SELECT DISTINCT zapoteco, espaniol AS espanol, categoria, audio
+        FROM palabras
+        WHERE zapoteco_normalizado LIKE ? 
+           OR espaniol_normalizado LIKE ?
+           OR zapoteco LIKE ?
+           OR espaniol LIKE ?
+        LIMIT 50
+    '''
+    param = f'%{q_norm}%'
+    param_raw = f'%{q}%'
+    
+    resultados = cursor.execute(query, (param, param, param_raw, param_raw)).fetchall()
+    conn.close()
+
+    # Convertir a lista de diccionarios
+    data = [dict(row) for row in resultados]
+    return jsonify(data)
 
 if __name__ == '__main__':
-    Timer(1.5, abrir_navegador).start()
-    app.run(port=5000)
+    app.run(debug=True)
