@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pueblo de Macuilxóchitl - Diccionario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf8f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .gallery-item {
+            background: #f9f9f9;
+            border: 1px solid #e1e1e1;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+        .gallery-item p {
+            padding: 10px 15px;
+            margin: 0;
+            font-size: 0.95em;
+            text-align: center;
+            color: #555;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>San Mateo Macuilxóchitl</h1>
+        <p>Conoce un poco más sobre la historia, el paisaje y la cultura de este hermoso pueblo a través de nuestra galería fotográfica.</p>
+
+        <div class="gallery">
+            <!-- Imagen 1 -->
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/macuilxochitl_1.jpg') }}" alt="Vista de Macuilxóchitl">
+                <p>Vista general de la comunidad</p>
+            </div>
+
+            <!-- Imagen 2 -->
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/plaza_principal.jpg') }}" alt="Plaza Principal">
+                <p>Plaza principal del pueblo</p>
+            </div>
+
+            <!-- Puedes agregar más bloques iguales si tienes más fotos -->
+        </div>
+
+        <a href="{{ url_for('index') }}" class="back-link">← Volver al inicio / Diccionario</a>
+    </div>
+
+</body>
+</html>

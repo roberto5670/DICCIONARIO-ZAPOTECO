@@ -158,7 +158,14 @@
 								font-size: 1.5rem;
 								}
 
-								.btn-volver {
+								/* Contenedor para alinear los botones del header sin romper nada */
+								.header-acciones {
+								display: flex;
+								gap: 10px;
+								align-items: center;
+								}
+
+								.btn-volver, .btn-macuilxochitl-nav {
 								background: transparent;
 								border: 1px solid #c5a059;
 								color: #fff;
@@ -166,10 +173,14 @@
 								border-radius: 20px;
 								cursor: pointer;
 								font-weight: 600;
+								text-decoration: none;
+								font-size: 0.9rem;
 								transition: 0.3s;
+								display: inline-flex;
+								align-items: center;
 								}
 
-								.btn-volver:hover {
+								.btn-volver:hover, .btn-macuilxochitl-nav:hover {
 								background: #c5a059;
 								color: #1b2a4a;
 								}
@@ -293,18 +304,23 @@
 				<div class="icono-libro">📖</div>
 				<h1 class="titulo-principal">
 					DICCIONARIO<br>ZAPOTECO de Macuilxóchitl Oaxaca.
-            </h1>
+				</h1>
 				<div class="separador-dorado"></div>
 				<p class="descripcion-portada">
-				          Vocabulario de palabras y frases en zapoteco con traducción al español usando fonetica del español.
+					Vocabulario de palabras y frases en zapoteco con traducción al español usando fonetica del español.
 				</p>
 				<button class="btn-entrar" onclick="abrirBuscador()">CONSULTAR DICCIONARIO</button>
+
+				<!-- Enlace adicional opcional en la portada -->
+				<div style="margin-top: 20px;">
+					<a href="{{ url_for('macuilxochitl') }}" style="color: #c5a059; text-decoration: none; font-size: 0.9rem; font-weight: 600;">📸 Ver galería fotográfica del pueblo</a>
+				</div>
 
 				<!-- Créditos de Autoría -->
 				<div class="creditos-footer">
 					Trabajo realizado por <strong>Roberto Hernández Vqz.</strong><br>
-                Todos los derechos reservados &copy; 2026
-            
+					Todos los derechos reservados &copy; 2026
+				
 				</div>
 			</div>
 		</div>
@@ -313,13 +329,16 @@
 		<div id="pantalla-buscador">
 			<div class="header-buscador">
 				<h2>Buscador de Palabras</h2>
-				<button class="btn-volver" onclick="volverPortada()">← Portada</button>
+				<div class="header-acciones">
+					<a href="{{ url_for('macuilxochitl') }}" class="btn-macuilxochitl-nav">📸 Pueblo</a>
+					<button class="btn-volver" onclick="volverPortada()">← Portada</button>
+				</div>
 			</div>
 
 			<div class="caja-busqueda-container">
 				<div class="input-wrapper">
 					<input type="text" id="inputBuscar" placeholder="Escribe una palabra en zapoteco o español..." autocomplete="off">
-            </div>
+				</div>
 
 				<div id="resultadosBusqueda">
 					<div class="sin-resultados">Comienza a escribir para buscar en el diccionario...</div>
@@ -363,14 +382,12 @@
 
 			let ruta = nombreArchivo.trim();
 
-			// Asegurar que la ruta empiece con la raíz /static/audio/
 			if (!ruta.includes('/')) {
 			ruta = `/static/audio/${ruta}`;
 			} else if (!ruta.startsWith('/')) {
 			ruta = `/${ruta}`;
 			}
 
-			// encodeURI evita errores con espacios o acentos en el navegador
 			const audio = new Audio(encodeURI(ruta));
 			audio.play().catch(err => {
 			console.error("Error al reproducir:", err, "en la ruta:", ruta);
@@ -427,7 +444,6 @@
 
 			tarjeta.innerHTML = contenidoHtml;
 
-			// Asignar el evento CLICK de forma limpia
 			const btnAudio = tarjeta.querySelector('.btn-audio');
 			if (btnAudio) {
 			btnAudio.addEventListener('click', function(e) {

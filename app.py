@@ -37,6 +37,9 @@ def buscar():
     conn.close()
 
     return jsonify([dict(row) for row in resultados])
+@app.route('/macuilxochitl')
+def macuilxochitl():
+    return render_template('macuilxochitl.html')
 
 
 if __name__ == '__main__':
