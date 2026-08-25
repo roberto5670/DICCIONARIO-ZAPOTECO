@@ -28,3 +28,10 @@ Ve a la pestaña Web en PythonAnywhere.
 Haz clic en el botón verde Reload.
 
 ¡Y listo! Con esos tres sencillos pasos tu sitio web se actualizará al instante con los nuevos datos o cambios que vayas realizando.
+
+el codigo siguiente se tiene que agregar en el archivo macuilxochitl.html cada que se quiera gragra una nueva imagen.
+
+<div class="gallery-item">
+    <img src="{{ url_for('static', filename='images/nombre_de_tu_nueva_foto.jpg') }}" alt="Descripción de la foto">
+    <p>Texto que aparecerá abajo de la foto</p>
+</div>
