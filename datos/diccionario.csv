@@ -19,7 +19,7 @@ ab dagua,ya comi,frase,ab-dagua.mp3
 a bedu he,ya viniste?,frase,a-bedu_he.mp3
 abjaga,ya me canse,frase,abjaga.mp3
 a brain,ya se acabo,frase,a-brain.mp3
-ab sun,ya llego,frase,ab-sun.mp3
+ab sun,ya llego,frase,ab_sun.mp3
 ab llagi,ya se canso,frase,ab-yagi.mp3
 acanit n,ya estamos perdiendo,frase,a_ca_nit_uh.mp3
 acut' rrutin,ya no sirve,frase,a_cut_rrutin.mp3
@@ -27,13 +27,13 @@ aguá,ya fui,frase,aguá.mp3
 amer icai,ya mero va a obscurecer,frase,amer_icai.mp3
 arcabeza liu,ya te estoy esperando,frase,ar_cabeza_liu.mp3
 araciu he,ya estas dormiendo?,frase,a_raciu_he.mp3
-arcasa tib nash,quiero algo dulce,frase,arcasa_tib_nash.mp3
-ast gi,asta mañana,frase,ast_gi.mp3
+rcasa tib nash,quiero algo dulce,frase,arcasa_tib_nash.mp3
+ast lli,hasta mañana,frase,ast_lli.mp3
 ati bitin,no ha regresado,frase,at_i_bitin.mp3
-aubi dein,ya regresaron,frase,a-ubi_dein.mp3
-aubin he,ya regreso?,frase,a-ubin_he.mp3
+aubi dein,ya regresaron,frase,aubi_dein.mp3
+aubin he,ya regreso?,frase,aubin_he.mp3
 ausha,ya es tarde,frase,ausha.mp3
-aushi re,ya atardecio,frase,aushi.mp3
+aushi re,ya atardecio,frase,aushi_re.mp3
 bsiu,aveja de castilla,frase,b_siu.mp3
 based,semillas de calabaza,frase,ba_sed.mp3
 baat,zorrillo,animal,baat.mp3
@@ -48,23 +48,23 @@ bay,rebozo,articulo de vestir,bay.mp3
 bcie ,aguila,animal,bcie-.mp3
 bdii,hormiga,animal,bdii.mp3
 bede,gorgojo,animal,be_de.mp3
-bedun,chuparrosa,animal,be_dun.mp3
+bedun,chuparrosa,animal,bedun.mp3
 bee,hongo ,organismo de la tirra,be_e.mp3
 begich,mosca,insecto,be_gich.mp3
 beka,zopilote,animal,be_ka.mp3
 belad',,animal,be_lad-i.mp3
 bech,zopilote,animal,bech.mp3
-bech rudub ,cenzontle..,animal,bech_rudub-.mp3
+bech rudub ,cenzontle..,animal,bech_rudub.mp3
 bedund,colibri,animal,bedund.mp3
 bee yag,hormiga de palo,animal,bee_yag.mp3
-beel,carne,alimento,beel.mp3
+beel,carne,alimento,bél.mp3
 begueg,mosquito,insecto,begueg.mp3
 bél,pezcado,animal vertebrado,bél.mp3
 bel cuan,caldo de oregano,comida,bel_cuan.mp3
 bel dia,culebra negra,animal,bel_dia.mp3
 beld,culebra,animal,beld.mp3
 ben duy,nanche roja,fruta,ben_duy.mp3
-ben duy guish,nanche del campo,fruta,ben_duy_guish.mp3
+ben duy guish,nanche del campo,fruta,benduy_guish.mp3
 best biau ,,animal,best_biau-.mp3
 bets gie,topetosle,animal,bets_gie.mp3
 betsia,piojo,animal,betsia.mp3
@@ -138,19 +138,19 @@ bziee,pozo,articulo,bziee.mp3
 bzin,raton,animal,bzin.mp3
 bzug ,gusano,animal,bzug-.mp3
 bzun,venado,animal,bzun.mp3
-cabsilas,esta descansando ,palabra,ca-_bsilas.mp3
-cachuch,gorra,articulo,ca_chuch.mp3
+cabsilas,esta descansando ,palabra,cabsilas.mp3
+cachuch,gorra,articulo,cachuch.mp3
 cacua,estoy echando,frase,ca_cua.mp3
 cacuán,esta echando,frase,ca_cuán.mp3
 cacuan get,esta echando tortillas,frase,ca_cuan_get.mp3
-ca yad niz gie,esta lloviendo,frase,ca_yad_niz_gie.mp3
-cayai,coser,palabra,ca_yai.mp3
+ca yab niz gie,esta lloviendo,frase,ca_yab_niz_gie.mp3
+cayai,se esta cociendo,palabra,cayai.mp3
 café,café ,bebida,café.mp3
 cain gib,venir armado,frase,cain_gib.mp3
 cald,caldo,comida,cald.mp3
 cald gun,caldo de res,comida,cald_gun.mp3
 cald bud',caldo de pollo,comida,cald-bud.mp3
-cald gil,caldo de borrego,comida,cald-gil.mp3
+cald llil,caldo de borrego,comida,cald_llil.mp3
 cali,adonde,palabra,cali.mp3
 Cali bsedu dizá,¿Dónde aprendiste Zapoteco?,frase,bsedu_.mp3
 cali chon,adonde vamos?,frase,cali_chon.mp3
@@ -379,7 +379,7 @@ isun ni eh,va ha llegar?,frase,i_sun_ni_eh.mp3
 icayu gel,oregear (arar la milpa ),trabajo,ica_yu_gel.mp3
 icuan yug lode gun,vamos a uncir los toros,frase,yug_gun.mp3
 idonti rub gin,vamos a comer una salsa,frase,idon_ti_rub_gin.mp3
-idonti sut bud,vamos a comer un huevo,frase,idon_ti_sut_bud.mp3
+idonti sut bud',vamos a comer un huevo,frase,idon_ti_sut_bud.mp3
 illibiu nare,me vas a asustar ,frase,igibiu_nare.mp3
 inalast nuh diza,para que no se olvide,frase,ina_last_nuh_.mp3
 irunbiu nare,me vas a conocer,frase,irunbiu_nare.mp3
@@ -553,7 +553,7 @@ rbinlass,depresion,palabra,rbin_lass.mp3
 rcas,queree,palabra,rcas.mp3
 rcas nare,quiereme,palabra,rcas_nare.mp3
 rcasa,quiero,palabra,rcasa.mp3
-rcasu he,quieres?,palabra,rcasu-he.mp3
+rcasu he,quieres?,palabra,rcasu_he.mp3
 rcua,echar,palabra,rcua.mp3
 rded,pasar,palabra,rded.mp3
 rdiab,hervir,palabra,rdiab.mp3
@@ -801,5 +801,5 @@ zhun tub,dies y seis,numero,zhun-tub.mp3
 zhu tiop,doce,numero,zhu-tiop.mp3
 zhu tub,once,numero,zhu-tub.mp3
 zuslom,empezar,palabra,zuslom.mp3
-zut bud',huevo,producto,zut_bud.mp3
+zut bud',huevo,producto,zut_bud'.mp3
 ringin,piedra de moler àra el molcajete (juajolote),palabra,rin_gin.mp3
