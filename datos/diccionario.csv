@@ -117,12 +117,12 @@ bue nald,invierno (luna de frio),estacion del tiempo,bue_nald.mp3
 bue nanda,verano (temporada de calor),estacion del tiempo,bue_nanda.mp3
 bue niz gie,temporada de lluvia,estacion del tiempo,bue_niz_gie.mp3
 buen durs,muy bien,frase,buen_durs.mp3
-bun lash,gente del pueblo,frase,bun__lash.mp3
+bun lash,gente del pueblo,frase,bun_lash.mp3
 bun dan,gente de la sierra,frase,bun_dan.mp3
 bun dizá,gente zapoteca,frase,bun_diza.mp3
 bun gish,gente catrina,frase,bun_gish.mp3
 bun gul,viejo (persona aduta),palabra,bun_gul.mp3
-bun lasha,paisano gente de mi pueblo),palabra,bun_lasha.mp3
+bun lasha,paisano gente de mi pueblo),palabra,bun_lalla.mp3
 bun zac,buena persona,frase,bun_zac.mp3
 bunn,gente,palabra,bunn.mp3
 bun wish,gente de macuil,frase,bun-wish.mp3
@@ -560,7 +560,7 @@ riló,creerse,frase,ri_lo.mp3
 rilua,me parece,frase,ri_lua.mp3
 riab,caer,palabra,riab.mp3
 riant,quedarse,frase,riant.mp3
-riasrh,faltar,palabra,riash.mp3
+riasrh,faltar,palabra,riasrh.mp3
 riasrhte lli,falta que termine el dia,frase,riasrhte_lli.mp3
 rien,verse,palabra,rien.mp3
 rin diag,oir,palabra,rin_diag.mp3
@@ -634,32 +634,32 @@ shi,que,palabra,shi.mp3
 shi ca yu nu,que estan haciendo,frase,shi_ca_yu_nu.mp3
 shi cos canie,que estoy diciendo,frase,shi_cos_canie.mp3
 shi cos go,que cosa vas a comer,frase,shi_cos_go.mp3
-shi cos na,que tiene (estado fisico),frase,shi_cos_na.mp3
+shi cos nain,que tiene (estado fisico),frase,shi_cos_nain.mp3
 shi cuens,por qué tanto,palabra,shi_cuens.mp3
-shi cuens runu shgab,porque tanto piensas,frase,shi_cuens_runu_shgab.mp3
+shi cuens runu shgab,porque tanto piensas,frase,cuens_runu.mp3
 shi gabil,que chingados ,frase,shi_gabil.mp3
 shi go,que vas a comer,frase,shi_go.mp3
 shi na ni banu,que fue lo que hiciste,frase,shi_na_ni_banu.mp3
 shi nain,que dice,frase,shi_nain.mp3
 shi nie,porque,frase,shi_nie.mp3
 shi nie runu sec,porque haces asi,frase,shi_nie_runu_sec.mp3
-shi ri lo,que te crees,frase,shi_ri-lo.mp3
+shi ri lo,que te crees,frase,shi_rilo.mp3
 shi runa,que ago,frase,shi_runa.mp3
 shi sacru runi,que bonito hace,frase,shi_sacru_runi.mp3
 llib,rodilla,parte del cuerpo,shib.mp3
 shi banu,que hiciste?,frase,shi-banu.mp3
-shi ca nin,que esta diciendo?,frase,shi-ca_nin.mp3
+shicos canin,que esta diciendo?,frase,shicos_canin.mp3
 shií,nariz,parte del cuerpo,shii.mp3
 sllíl,borrego,animal,shíl.mp3
 shin gana,hijo,palabra,shin_gana.mp3
-shin chapa,hija,palabra,shin-chapa.mp3
+shin chapa,hija,palabra,shin_chapa.mp3
 shinia,"hijo, hija.",palabra,shinia.mp3
 shinia nain,es mi hijo,frase,shinia_nain.mp3
-shiniu  nain he,es tu hijo?,frase,shiniu-_nain_he.mp3
-shir casu,que quieres?,frase,shir-casu.mp3
-shir nesh,ni cuando,frase,shir-nesh.mp3
-shisr rgab runu,que piensas,frase,shisr_rgab_runu.mp3
-shis tuve,cual otro,frase,shis-tuv.mp3
+shiniu  nain he,es tu hijo?,frase,shiniu_nain_he.mp3
+shir casu,que quieres?,frase,shir_casu.mp3
+shir nesh,ni cuando,frase,shir_rnez.mp3
+shisr rgab runu,que pienzas,frase,shisr_rgab_runu.mp3
+shis tuve,cual otro,frase,shis_tuv.mp3
 shkit run,chupa_rosa,animal,shkit_run.mp3
 shlat,lugar,palabra,shlat.mp3
 shnia,rojo,color,shnia.mp3
@@ -668,7 +668,7 @@ shra nuh dein nesku,como estan por hay,frase,nu_dein_nesk.mp3
 shra yu iviu,como esta usted,frase,shra_yu_iviu.mp3
 shron,ocho,numero,shron.mp3
 shrop,seis,numero,shrop.mp3
-shtios yubtu,gracias a ustedes,frase,shtios-yubtu.mp3
+shtios yubtu,gracias a ustedes,frase,shtios_yubtu.mp3
 rshun,trabajo,palabra,shun.mp3
 sigues,cegesa,comida,si_gues.mp3
 si sicti,que cantidad,frase,si_sicti.mp3
@@ -720,10 +720,10 @@ tu na srhnanu,qui es tu mamá?,frase,tu_na_srhnanu.mp3
 tu na srhtadu,quie es tu papá?,frase,tu_na_srhtadu.mp3
 tu par nain,para quien es?,frase,tu_par_nain.mp3
 tu shin racu,hijo de quien eres?,frase,tu_shin_racu.mp3
-tu shin nain,hijo de quien es?,frase,tu_shin-nain.mp3
+tu shin nain,hijo de quien es?,frase,tu_shin_nain.mp3
 tub,uno ,numero,tub.mp3
-tu brein,a quien se pacere?,frase,tu-brein.mp3
-tu nabi,quien lo pidio?,frase,tu-nabi.mp3
+tu brein,a quien se pacere?,frase,tu_brein.mp3
+tu nabi,quien lo pidio?,frase,tu_nabi.mp3
 turs srhteni,de quien es?,frase,tursh_srhteni.mp3
 tush,pecho,parte del cuwerpo,tush.mp3
 ubcadiag,escuchá ,palabra,ub_kadiag.mp3
@@ -746,7 +746,7 @@ ules nare,esperame,palabra,ules_nare.mp3
 nú,hay,palabra,nu.mp3
 una yaz,mujer morena,frase,una_yaz.mp3
 uni,habla,palabra,uni.mp3
-uni  nare,hablame,palabra,uni_-nare.mp3
+uni  nare,hablame,palabra,uni_nare.mp3
 uni tub,di uno,frase,uni_tub.mp3
 unia lo valgi,mire las estrellas,frase,unia_lo_valgi.mp3
 usha,luz,palabra,usha.mp3
@@ -764,7 +764,7 @@ isubgan lo scan,nos sentaremos en el banquito,frase,lo_scan.mp3
 isuslon,vamos a empezar,palabra,y_suslon.mp3
 yabá,cielo,palabra,yaba.mp3
 yag,arbol (leña),palabra,yag.mp3
-ya wish,nombre dado en dizá a macuil ,palabra,yag-wish.mp3
+ya wish,nombre dado en dizá a macuil ,palabra,yag_wish.mp3
 yaz,aguacate,verdura,yaz.mp3
 yu,casa,palabra,yu.mp3
 yu doo,iglesia,lugar,yu_doo.mp3
@@ -779,16 +779,16 @@ zanahor,zanahoria ,verdura,zanahor.mp3
 zee,elote,producto,zee.mp3
 zes,verdolaga,verdura,zes.mp3
 zhonn,quince,numero,zhonn.mp3
-zhra iu,como estas?,frase,zhra-iu.mp3
+zhra iu,como estas?,frase,zhra_iu.mp3
 zhu,diez,numero,zhu.mp3
-zhu da,catorce,numero,zhu-da.mp3
+zhu da,catorce,numero,zhu_da.mp3
 zhun chon,diez y ocho,numero,zhun-chon.mp3
 zhunn,trece,numero,zhunn.mp3
 zhun tap,diez y nueve,numero,zhun-tap.mp3
 zhun tiop,diez y siete,numero,zhun-tiop.mp3
 zhun tub,dies y seis,numero,zhun-tub.mp3
-zhu tiop,doce,numero,zhu-tiop.mp3
-zhu tub,once,numero,zhu-tub.mp3
+zhu tiop,doce,numero,zhub-tiop.mp3
+zhu tub,once,numero,zhub-tub.mp3
 zuslom,empezar,palabra,zuslom.mp3
 zut bud',huevo,producto,zut_bud'.mp3
 ringin,piedra de moler àra el molcajete (juajolote),palabra,rin_gin.mp3
