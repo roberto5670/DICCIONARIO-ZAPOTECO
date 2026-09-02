@@ -212,12 +212,12 @@ cut chale,no se va a poder,frase,cut_chale.mp3
 cut ibestia liu,no te esperare,frase,cut_ibestia_liu.mp3
 cut inastia,no agarrare,frase,cut_inastia.mp3
 cut isun ni,no va a llegar,frase,cut_isun_ni.mp3
-cut rbesti,no esta,frase,cut_rbesti.mp3
-cut rcasu na,no me quieres?,frase,cut_rcasu_na.mp3
-cut rgibia,no tengo miedo,frase,cut_rgibia.mp3
+cut' rbesti,no esta,frase,cut_rbesti.mp3
+cut' rcasu na,no me quieres?,frase,cut_rcasu_na.mp3
+cut' rgibia,no tengo miedo,frase,cut_rgibia.mp3
 cuti,no,palabra,cuti.mp3
 cut inustia liu,no te voy a agarrar,frase,cut-inustia-liu.mp3
-cut nantia,no se,frase,cut-nantia.mp3
+cut' nantia,no se,frase,cut-nantia.mp3
 cuton,camisa,articulo de vestir,cuton.mp3
 dad,señor (Dios),persona,dad.mp3
 dad rvest yubtu,el señor este con ustedes,frase,dad_rvest-yubtu.mp3
@@ -343,7 +343,7 @@ gulgue  dich,platiquen,frase,gul_gue__dich.mp3
 gultee,torcaza,animal,gul_tee.mp3
 gulbirus ,tarantula,animal,gulbirus.mp3
 gun,toro,animal,gún.mp3
-hurbes dad he,esta el señor?,frase,hurbes_dad_he.mp3
+rbes dad he,esta el señor?,frase,rbes_dad_he.mp3
 gurral,corral,lugar,gurral.mp3
 ghush,pueblo,palabra,gush.mp3
 gutbill,guilas,animal,gut_bill.mp3
