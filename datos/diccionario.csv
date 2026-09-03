@@ -45,7 +45,7 @@ ban ní,hazlo,palabra,ban_ni.mp3
 baan ,lodo,palabra,bann-.mp3
 baunk,banco ,mueble,baunk.mp3
 bay,rebozo,articulo de vestir,bay.mp3
-bcie ,aguila,animal,bcie-.mp3
+bcie ,aguila,animal,bcie.mp3
 bdii,hormiga,animal,bdii.mp3
 bede,gorgojo,animal,be_de.mp3
 bedun,chuparrosa,animal,bedun.mp3
@@ -134,8 +134,7 @@ bzug ,gusano,animal,bzug-.mp3
 cabsilas,esta descansando ,palabra,cabsilas.mp3
 cachuch,gorra,articulo,cachuch.mp3
 cacua,estoy echando,frase,cacua.mp3
-cacuán,esta echando,frase,ca_cuán.mp3
-cacuan get,esta echando tortillas,frase,ca_cuan_get.mp3
+cacuan get,esta echando tortillas,frase,cacuan_get.mp3
 ca yab niz gie,esta lloviendo,frase,ca_yab_niz_gie.mp3
 cayai,se esta cociendo,palabra,cayai.mp3
 café,café ,bebida,café.mp3
@@ -153,9 +152,9 @@ cali  isuban,donde lo pongo?,frase,cali-_i-suban.mp3
 cali subgo,adonde estas sentado(a)?,frase,cali_subgo.mp3
 cali gai hu,adonde se va hacer',frase,cali-gai-hu.mp3
 cali gak,adonde va aser?,frase,cali-gak.mp3
-cali rvesu,adonde vives?,frase,cali-rvesu.mp3
-cali sein,adonde se fue?,frase,cali-sein.mp3
-cali ui,adonde fuiste? (presente),frase,cali-ui.mp3
+cali rvesu,adonde vives?,frase,cali_rvesu.mp3
+cali sein,adonde se fue?,frase,cali_sein.mp3
+cali ui,adonde fuiste? (presente),frase,cali_ui.mp3
 canél,canela,palabra,canel.mp3
 casilasa,estoy descansando,frase,casilasa.mp3
 cayó,comiendo,palabra,cayo.mp3
@@ -189,9 +188,9 @@ cub sie,tejate de cacao,bebida,cubsie.mp3
 cuch,cerdo,animal,cuch.mp3
 cuch bez,tlacuache,animal,cuch_bez.mp3
 cuch nis,cochinilla,animal,cuch_nis.mp3
-cue,a mi lado,palabra,cue.mp3
-cue  tush,al costado,palabra,cue__tush.mp3
-cue danush,al lado del cerro danush,frase,cuedanush.mp3
+cue,a mi lado,palabra,black.mp3
+cue  tush,al costado,palabra,cue_tush.mp3
+cue danush,al lado del cerro danush,frase,cue_danush.mp3
 cuel bols,coco de totomozle,palabra,cuel_bols.mp3
 cumin,comino,alimento,cumin.mp3
 cun shinganu,donde esta tu hijo?,frase,cun_shinganu.mp3
@@ -512,7 +511,7 @@ nu bun ni cut' riulas nin,hay gente que no le gusta eso,frase,cuti_riulas_nin.mp
 nu bun ni cut' riulas,hay gente que no le gusta,frase,ni_cut-i_ryu.mpo3
 nu saa lo ubish,esta nublado,frase,saa_loubish.mp3
 nu ti disak,hay una voluntad,frase,nu_ti_disak.mp3
-nu tib disch,hay un acuerdo,frase,nuh_tib_disch.mp3
+nu tib dich,hay un acuerdo,frase,nuh_tib_dich.mp3
 nul,largo,palabra,nul.mp3
 nush nare,dame,palabra,nush_nare.mp3
 zá,nuve,palabra,nuu.mp3
@@ -551,16 +550,16 @@ rdienal,perseguir,frase,rdienal.mp3
 rdo,se evende,palabra,rdo.mp3
 re,va (ir),palabra,re.mp3
 refresc,refresco,bebida,refresc.mp3
-rgib,miedo,palabra,rgib.mp3
-rgibiu,tienes miendo,frase,rgibiu.mp3
+rllib,miedo,palabra,rllib.mp3
+rllibiu,tienes miendo,frase,rllibiu.mp3
 rgii,asar (cocinar),palabra,rgii.mp3
 rgit,jugar,palabra,rgit.mp3
-riló,creerse,frase,ri_lo.mp3
+riló,creerse,frase,rilo.mp3
 rilua,me parece,frase,ri_lua.mp3
 riab,caer,palabra,riab.mp3
 riant,quedarse,frase,riant.mp3
 riasrh,faltar,palabra,riasrh.mp3
-riasrhte lli,falta que termine el dia,frase,riasrhte_lli.mp3
+riasrhte lli,falta que termine el dia,frase,riasrh_telli.mp3
 rien,verse,palabra,rien.mp3
 rin diag,oir,palabra,rin_diag.mp3
 riu,entrar,palabra,riu.mp3
@@ -793,3 +792,4 @@ zut bud',huevo,producto,zut_bud'.mp3
 ringin,piedra de moler àra el molcajete (juajolote),palabra,rin_gin.mp3
 nushi nare,damelo,palabra,nushi_nare.mp3
 dizá,zapoteco,palabra,dizá.mp3
+cacuan,esta echando,palabra,cacuan.mp3
