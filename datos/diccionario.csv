@@ -35,7 +35,7 @@ aubin he,ya regreso?,frase,aubin_he.mp3
 aulla,ya es tarde,frase,aulla.mp3
 aushi re,ya atardecio,frase,aushin_re.mp3
 bsiu,aveja de castilla,frase,b_siu.mp3
-based,semillas de calabaza,frase,ba_sed.mp3
+based,semillas de calabaza,frase,audio03.mp3
 baat,zorrillo,animal,baat.mp3
 bad,pato,animal,bad.mp3
 bald,cubeta,uticecilio,bald.mp3
@@ -120,8 +120,8 @@ bun lash,gente del pueblo,frase,bun_lash.mp3
 bun dan,gente de la sierra,frase,bun_dan.mp3
 bun dizá,gente zapoteca,frase,bun_diza.mp3
 bun gish,gente catrina,frase,bun_gish.mp3
-bun gul,viejo (persona aduta),palabra,bun_gul.mp3
-bun lasha,paisano gente de mi pueblo),palabra,bun_lalla.mp3
+bun gul,viejo (persona adulta),palabra,bun_gul.mp3
+bun ste lasha,paisano (gente de mi pueblo),palabra,bun_lalla.mp3
 bun zac,buena persona,frase,bun_zac.mp3
 bunn,gente,palabra,bunn.mp3
 bun wish,gente de macuil,frase,bun-wish.mp3
@@ -154,7 +154,7 @@ cali gai hu,adonde se va hacer',frase,cali-gai-hu.mp3
 cali gak,adonde va aser?,frase,cali-gak.mp3
 cali rvesu,adonde vives?,frase,cali_rvesu.mp3
 cali sein,adonde se fue?,frase,cali_sein.mp3
-cali ui,adonde fuiste? (presente),frase,cali_ui.mp3
+cali ui,adonde fuiste? ,frase,cali_ui.mp3
 canél,canela,palabra,canel.mp3
 casilasa,estoy descansando,frase,casilasa.mp3
 cayó,comiendo,palabra,cayo.mp3
@@ -177,14 +177,14 @@ cho siac ni disak,vamos a dar las gracias,frase,cho_siac.mp3
 chon,tres,numero,chon.mp3
 chonn,vamos ,palabra,chonn.mp3
 chu,ir,palabra,chu.mp3
-cu bash,tejate de tepache,bebida,cu-bash.mp3
+cu bash,tejate de tepache,bebida,audio21.mp3
 cu biat,tejate  blanco,bebida,cu-biat.mp3
 cu nu,endonde estas?,frase,cu_nu.mp3
 cuai,madrugada,palabra,cuai.mp3
 cuan,alfalfa,hierva,cuan.mp3
 cuania,chepil,verdura,cuania.mp3
-cub,"tejate, masa",bebida,cub.mp3
-cub sie,tejate de cacao,bebida,cubsie.mp3
+cub,m,bebida,audio24.mp3
+cub sie,tejate de cacao,bebida,audio23.mp3
 cuch,cerdo,animal,cuch.mp3
 cuch bez,tlacuache,animal,cuch_bez.mp3
 cuch nis,cochinilla,animal,cuch_nis.mp3
@@ -200,7 +200,7 @@ cu nii,donde esta?,frase,cu-ni.mp3
 "cun cuti escuel bai pus
  don na par iseden ladein","como no hay escuela , 
 nosotros tenemos que enseñarles.",frase,cun_cuti.mp3
-cunú,donde estas?,frase,cunú.mp3
+cunú,donde estas?,frase,audio17.mp3
 curand,cilantro,verdura,curand.mp3
 curs teti,nada,palabra,curs_teti.mp3
 curs teti bana,no hice nada,frase,curs_teti_bana.mp3
@@ -218,8 +218,8 @@ cuti,no,palabra,cuti.mp3
 cut inustia liu,no te voy a agarrar,frase,cut-inustia-liu.mp3
 cut' nantia,no se,frase,cut-nantia.mp3
 cuton,camisa,articulo de vestir,cuton.mp3
-dad,señor (Dios),persona,dad.mp3
-dad rvest yubtu,el señor este con ustedes,frase,dad_rvest-yubtu.mp3
+dad,señor (Dios),persona,audio05.mp3
+dad rvest yubtu,el señor este con ustedes,frase,audio06.mp3
 dad vid,Dios,palabra,dad_vid.mp3
 damm,buo,animal,damm.mp3
 dan,cerro,lugar,dan.mp3
@@ -288,7 +288,7 @@ get bas guie,tamal de piedra,alimento,get_bas_guie.mp3
 get baz,tamal,alimento,get_baz.mp3
 get lo sul,empanada,alimento,get_lo_sul.mp3
 get shun,entomatadas (de molcajete),comida,get_shun.mp3
-gi,mañana,palabra,gi.mp3
+lli,mañana,palabra,audio16.mp3
 gi niá,chile de agua,alimento,giniá.mp3
 gi nionc,chile de onza,alimento,gi_nionc.mp3
 gi ller,tijeras,articulo,giller.mp3
@@ -324,9 +324,8 @@ guag,rata,animal,guag.mp3
 guanee,llévalo,palabra,guanee.mp3
 guch ,jilote (antes de sr elote),parte de la milpa,guch.mp3
 guchllil,cuchillo ,utenciolio,guch_gill.mp3
-gushliu,mundo ,palabra,guch_liu.mp3
+gushliu,mundo ,palabra,audio15.mp3
 gué ,mercado,lugar,gue.mp3
-gueló,luciernaga,animal,gue_ló.mp3
 gueshun,garrapata,animal,gue_shun.mp3
 guetiup,avispa roja,animal,gue_tiup.mp3
 guetub ,escarabajo,animal,guetub.mp3
@@ -354,7 +353,7 @@ ha vandein perdid,ya lo echaron a perde,frase,ha_vandein_perdid.mp3
 hacha tasiu he,ya te vas a dormir?,frase,tasiu-he.mp3
 hagualem,ya esta listo,frase,ha-gualem.mp3
 harasi,ya esta durmiendo?,frase,harasi.mp3
-huna,mujer,palabra,hu_na.mp3
+houna,mujer,palabra,hu_na.mp3
 huni,habla,palabra,hu_ni.mp3
 hurau,lagartija,animal,hu_rau.mp3
 hushar,cuchara,utencilio de cocina,hu_shar.mp3
@@ -370,7 +369,7 @@ icuan yug lode gun,vamos a uncir los toros,frase,yug_gun.mp3
 idonti rub gin,vamos a comer una salsa,frase,idon_ti_rub_gin.mp3
 idonti sut bud',vamos a comer un huevo,frase,idon_ti_sut_bud.mp3
 illibiu nare,me vas a asustar ,frase,igibiu_nare.mp3
-inalast nuh diza,para que no se olvide,frase,ina_last_nuh_.mp3
+inalast nuh diza,para que no se olvide,frase,audio14.mp3
 irunbiu nare,me vas a conocer,frase,irunbiu_nare.mp3
 isilasa tibru,voy a descansar un pocoquito,frase,isi_lasa_tib_ru.mp3
 isuchun  ,arreglarse,palabra,isu_chun.mp3
@@ -383,7 +382,7 @@ ka rel,haciendo,palabra,ka_rel.mp3
 ka yac,pasando ,palabra,ka_yac.mp3
 ka chandilasa,como creerlo,frase,ka-chandilasa.mp3
 kalí,a dónde,palabra,kali.mp3
-Kandian rrub,esta naciendo la milpa,frase,Kandian_rrub.mp3
+acandian rrub,esta naciendo la milpa,frase,audio12.mp3
 lanii,fiesta,palabra,lanii.mp3
 laá,guaje,verdura,laá.mp3
 laachi,chepiche,hierba,laa_chi.mp3
@@ -412,8 +411,8 @@ lisú,tu casa,frase,lisu.mp3
 liú,tu,pronombre,liu.mp3
 liu chi,tu pues,frase,liu_chi.mp3
 liu chú,tu vas a ir,frase,liu_chu.mp3
-liun,enseñar,frase,liun.mp3
-liunas,tu agarra,frase,liu-nas.mp3
+liun,enseñar,frase,audio11.mp3
+liunas,tu agarra,frase,audio09.mp3
 líz,casa,palabra,liz.mp3
 lo,cara,frase,lo.mp3
 lo dan,encima del cerro,lugar,lo_dan.mp3
@@ -456,7 +455,7 @@ nach,mojado,palabra,nach.mp3
 nageg,ruidoso,palabra,nageg.mp3
 nagish,sabroso,frase,nagish.mp3
 nagish rsien ,se sienete sabroso,frase,nagish_rsien_.mp3
-nah par chaula,esto tiene que continuar,frase,chau_la.mp3
+nah par chaula,esto tiene que continuar,frase,audio18.mp3
 nah par iliuden  dizá lo rat nir cads ised,"tenemos que enseñarles a 
 todos los que quieran aprender",frase,rcads_ised.mp3
 nah par iliun dizá lo de bun,tenemos que enales a la gente.,frase,iliun_diza.mp3
@@ -464,7 +463,7 @@ nah par isednu dizá,tenemos que aprende el zapoteco,frase,nu_dizaa.mp3
 nah rshund  srten nu,es nuestro trabajo.,frase,nah_rschun.mp3
 nald,frio,palabra,nald.mp3
 nan,señora,palabra,nan.mp3
-nanda,"amargo, caliente",palabra,nanda.mp3
+nanda,"amargo, caliente",palabra,audio02.mp3
 nare,yo,pronombre,nare.mp3
 nare bana,yo lo hice,frase,nare_bana.mp3
 nare na,yo soy ,frase,nare_-_na.mp3
@@ -518,7 +517,7 @@ zá,nuve,palabra,nuu.mp3
 nyu,hombre,palabra,nyu.mp3
 oreg,oregano,alimento,oreg.mp3
 parsi,no mas ---q no digan,frase,par_si.mp3
-par nare,para mi,frase,par-nare.mp3
+par nare,para mi,frase,audio19.mp3
 pimient,pimienta,alimento,pimient.mp3
 plad riach,molcajete,palabra,plad_iach.mp3
 qitz,entierralo ,palabra,qitz.mp3
@@ -616,7 +615,7 @@ sarcasu,como quieres,frase,sar-casu.mp3
 scan,banca,palabra,scan.mp3
 sdie,sandia,frutas,sdie.mp3
 sed,sal,alimento,sed.mp3
-sed no ah,eres chingon,frase,sed_no_ah.mp3
+sed no ah,eres chingon,frase,audio04.mp3
 sek no,asi eres,frase,sek_no.mp3
 sek rilua,asi me parece,frase,sek_rilua.mp3
 sek gaki,asi se hara,frase,sek-gaki.mp3
@@ -669,10 +668,10 @@ shrop,seis,numero,shrop.mp3
 shtios yubtu,gracias a ustedes,frase,shtios_yubtu.mp3
 rshun,trabajo,palabra,shun.mp3
 sigues,cegesa,comida,si_gues.mp3
-si sicti,que cantidad,frase,si_sicti.mp3
+si sicti,que cantidad,frase,audio07.mp3
 siab,atole,bebida,siab.mp3
 siab guez,chocolate atole,bebida,siab_guez.mp3
-siop nu  ti mandan,venimos un mandado,frase,ti_madad.mp3
+siopnu  ti mandan,venimos un mandado,frase,ti_madad.mp3
 sit,lejos,palabra,sit.mp3
 siul,largo,palabra,siul.mp3
 srhuc,honbro,parte del cuerpo,srhuc.mp3
@@ -691,7 +690,7 @@ suth,hueso,parte del cuerpo,suth.mp3
 sutip,ponerse fuerte,frase,su_tip.mp3
 tap,cuatro,numero,tap.mp3
 tassh,dormir,palabra,tassh.mp3
-te cut irnit nuh,para que no se pierda,frase,irnit_.mp3
+te cut irnit'n,para que no se pierda,frase,audio20.mp3
 tegna,mi mano,frase,teg_naa.mp3
 teru isunia ruy,apenas voy a llegar ahí,frase,teru_isunia_ruy.mp3
 ti gayua,un ciento,frase,ti_gayua.mp3
@@ -793,3 +792,4 @@ ringin,piedra de moler àra el molcajete (juajolote),palabra,rin_gin.mp3
 nushi nare,damelo,palabra,nushi_nare.mp3
 dizá,zapoteco,palabra,dizá.mp3
 cacuan,esta echando,palabra,cacuan.mp3
+racbein,sabe,palabra,audio01.mp3
