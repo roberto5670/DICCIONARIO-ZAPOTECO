@@ -63,7 +63,6 @@ bel cuan,caldo de oregano,comida,bel_cuan.mp3
 bel dia,culebra negra,animal,bel_dia.mp3
 beld,culebra,animal,beld.mp3
 ben duy,nanche ,fruta,ben_duy.mp3
-best biau ,,animal,best_biau-.mp3
 bets gie,topetosle,animal,bets_gie.mp3
 betsia,piojo,animal,betsia.mp3
 beú,coyote,animal,beu.mp3
@@ -173,13 +172,12 @@ chel,esposa (o),palabra,chel.mp3
 chib,chivo,animal,chib.mp3
 chocan yus,vamos a traer arena,frase,chocan_yush.mp3
 cho can zé,vamos a traer elotes,frase,cho_can_ze.mp3
-cho siac ni disak,vamos a dar las gracias,frase,cho_siac.mp3
+cho siac ni disak,vamos a dar las gracias,frase,audio30.mp3
 chon,tres,numero,chon.mp3
 chonn,vamos ,palabra,chonn.mp3
 chu,ir,palabra,chu.mp3
 cu bash,tejate de tepache,bebida,audio21.mp3
-cu biat,tejate  blanco,bebida,cu-biat.mp3
-cu nu,endonde estas?,frase,cu_nu.mp3
+cu biat,tejate  blanco,bebida,audio22.mp3
 cuai,madrugada,palabra,cuai.mp3
 cuan,alfalfa,hierva,cuan.mp3
 cuania,chepil,verdura,cuania.mp3
@@ -196,7 +194,7 @@ cumin,comino,alimento,cumin.mp3
 cun shinganu,donde esta tu hijo?,frase,cun_shinganu.mp3
 cuntis carrun ni,conque estaba corriendo,frase,cun_tis.mp3
 cun bsanu,donde esta tu hermano?,frase,cun_bsanu.mp3
-cu nii,donde esta?,frase,cu-ni.mp3
+cu nii,donde esta?,frase,audio32.mp3
 "cun cuti escuel bai pus
  don na par iseden ladein","como no hay escuela , 
 nosotros tenemos que enseñarles.",frase,cun_cuti.mp3
@@ -210,10 +208,10 @@ cushteti cayak,nada esta pasando,frase,cushteti_cayak.mp3
 cut' chale,no se va a poder,frase,cut_chale.mp3
 cut ibestia liu,no te esperare,frase,cut_ibestia_liu.mp3
 cut inastia,no agarrare,frase,cut_inastia.mp3
-cut isun ni,no va a llegar,frase,cut_isuni.mp3
-cut' rbesti,no esta,frase,cut_rbesti.mp3
+cut isun ni,no va a llegar,frase,audio33.mp3
+cut' rbesti,no esta,frase,audio34.mp3
 cut' rcasu na,no me quieres?,frase,cut_rcasu_na.mp3
-cut' rrllibia,no tengo miedo,frase,cut_rllibia.mp3
+cut' rllibia,no tengo miedo,frase,cut_rllibia.mp3
 cuti,no,palabra,cuti.mp3
 cut inustia liu,no te voy a agarrar,frase,cut-inustia-liu.mp3
 cut' nantia,no se,frase,cut-nantia.mp3
@@ -398,7 +396,7 @@ langun,cuello,parte del cuerpo,lan_gun.mp3
 lan gurral,en el corral,lugar,lan_gurral.mp3
 lan gush,en el pueblo,lugar,lan_gush.mp3
 laniaa,estomago,parte del cuerpo,laniaa.mp3
-lanii ró,fiesta grande,frase,la_nii_ro.mp3
+lanii ró,fiesta grande,frase,audio29.mp3
 lan',adentro,palabra,lann.mp3
 lan' diag,dentro del oido,frase,lann_diag.mp3
 lás,delgado,palabra,las.mp3
@@ -528,7 +526,7 @@ raath,todos,palabra,raath.mp3
 rac,dolor,palabra,rac.mp3
 racbe,saber,palabra,rac_be.mp3
 racne,ayudar,palabra,rac_ne.mp3
-rac srhuca,me duele el hombro,frase,rac_srhuca.mp3
+rac srhuca,me duele el hombro,frase,audio27.mp3
 racshrua,estar enfermo,frase,racshrua.mp3
 nap,tener,palabra,rap.mp3
 rasn,dormir,palabra,ras´.mp3
@@ -558,7 +556,7 @@ rilua,me parece,frase,ri_lua.mp3
 riab,caer,palabra,riab.mp3
 riant,quedarse,frase,riant.mp3
 riasrh,faltar,palabra,riasrh.mp3
-riasrhte lli,falta que termine el dia,frase,riasrh_telli.mp3
+riasrhte lli,falta que termine el dia,frase,audio26.mp3
 rien,verse,palabra,rien.mp3
 rin diag,oir,palabra,rin_diag.mp3
 riu,entrar,palabra,riu.mp3
@@ -671,7 +669,7 @@ sigues,cegesa,comida,si_gues.mp3
 si sicti,que cantidad,frase,audio07.mp3
 siab,atole,bebida,siab.mp3
 siab guez,chocolate atole,bebida,siab_guez.mp3
-siopnu  ti mandan,venimos un mandado,frase,ti_madad.mp3
+siopnu  ti mandan,venimos un mandado,frase,audio35.mp3
 sit,lejos,palabra,sit.mp3
 siul,largo,palabra,siul.mp3
 srhuc,honbro,parte del cuerpo,srhuc.mp3
@@ -703,7 +701,7 @@ tiemp bzi,sequia,palabra,tiemp_bzi.mp3
 tin gib,tina de fierro,frase,tin_gib.mp3
 tiop,dos,numero,tiop.mp3
 tios ibiu,gracias a ti,frase,tios_ibiu.mp3
-tios yubtu ka nib tib disak,"gracias a ustede, que tienen voluntad.",frase,tib_disak.mp3
+tios yubtu ka nib tib disak,"gracias a ustede, que tienen voluntad.",frase,audio31.mp3
 tiua,cuarenta,numero,tiua.mp3
 tiush guish,miltomate,frase,tiush_guish.mp3
 tiush las,tomate silvestre,frase,tiush-las.mp3
@@ -747,7 +745,7 @@ uni  nare,hablame,palabra,uni_nare.mp3
 uni tub,di uno,frase,uni_tub.mp3
 unia lo valgi,mire las estrellas,frase,unia_lo_valgi.mp3
 usha,luz,palabra,usha.mp3
-usrhard',chapulin,animal,usrhard.mp3
+usrhard',chapulin,animal,audio28.mp3
 uyash,caro,palabra,uyash.mp3
 vag,vaca,animal,vag.mp3
 val gi,estrella,palabra,val_gi.mp3
