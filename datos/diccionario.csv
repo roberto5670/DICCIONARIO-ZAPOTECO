@@ -129,7 +129,6 @@ bzan,hermano,palabra,bzan.mp3
 bzie yu,cacahuate ,fruta,bzie_yu.mp3
 bziee,pozo,articulo,bziee.mp3
 bzin,raton,animal,bzin.mp3
-bzug ,gusano,animal,bzug-.mp3
 cabsilas,esta descansando ,palabra,cabsilas.mp3
 cachuch,gorra,articulo,cachuch.mp3
 cacua,estoy echando,frase,cacua.mp3
@@ -163,7 +162,7 @@ chaquinia tiboc cub,voy a tomar un poco de tejate,frase,chaquinia-.mp3
 chaá,ire,palabra,chaá.mp3
 chagursh,,animal,chagursh.mp3
 chan daquiu,vas a sembra,frase,chan_daquiu.mp3
-chaniu eh,lo vas a llevar?,frase,chaniu_eh.mp3
+chaniu nin eh?,lo vas a llevar?,frase,audio41.mp3
 chap,muchacha (chamaca),palabra,chap.mp3
 chape,chamaquita (niña),palabra,chape.mp3
 chay,despacio,palabra,chay.mp3
@@ -173,8 +172,8 @@ chib,chivo,animal,chib.mp3
 chocan yus,vamos a traer arena,frase,chocan_yush.mp3
 cho can zé,vamos a traer elotes,frase,cho_can_ze.mp3
 cho siac ni disak,vamos a dar las gracias,frase,audio30.mp3
-chon,tres,numero,chon.mp3
-chonn,vamos ,palabra,chonn.mp3
+chon,tres,numero,audio42.mp3
+chonn,vamos ,palabra,audio43.mp3
 chu,ir,palabra,chu.mp3
 cu bash,tejate de tepache,bebida,audio21.mp3
 cu biat,tejate  blanco,bebida,audio22.mp3
@@ -335,9 +334,8 @@ guitzin ,murciélago ,animal,guitzin.mp3
 guk,cuando,palabra,guk.mp3
 guk gaki,cuando se va ha ser?,frase,guk-gak-i.mp3
 gulge,tomen,frase,gul_ge.mp3
-gulgue  dich,platiquen,frase,gul_gue__dich.mp3
+gulgue  dich,platiquen,frase,gulgue__dich.mp3
 gultee,torcaza,animal,gul_tee.mp3
-gulbirus ,tarantula,animal,gulbirus.mp3
 gun,toro,animal,gún.mp3
 rbes dad he,esta el señor?,frase,rbes_dad_he.mp3
 gurral,corral,lugar,gurral.mp3
@@ -370,12 +368,12 @@ illibiu nare,me vas a asustar ,frase,igibiu_nare.mp3
 inalast nuh diza,para que no se olvide,frase,audio14.mp3
 irunbiu nare,me vas a conocer,frase,irunbiu_nare.mp3
 isilasa tibru,voy a descansar un pocoquito,frase,isi_lasa_tib_ru.mp3
-isuchun  ,arreglarse,palabra,isu_chun.mp3
+isuchun  ,arreglarse,palabra,audio39.mp3
 isunia,llegar,palabra,isunia.mp3
 illagnu,nos vemos,frase de despedida,iyag_nu.mp3
 izz,año,palabra,izz.mp3
 kayai,se está cociendo,frase,ka__yai.mp3
-ka  chandilasa liu,como te voy a creer,frase,ka_-chandilasa_liu.mp3
+ka  chandilasa liu,como te voy a creer,frase,audio40.mp3
 ka rel,haciendo,palabra,ka_rel.mp3
 ka yac,pasando ,palabra,ka_yac.mp3
 ka chandilasa,como creerlo,frase,ka-chandilasa.mp3
@@ -435,7 +433,7 @@ na,mano,palabra,na.mp3
 naban,estar vivo,palabra,na_ban.mp3
 nabin,trsite,palabra,na_bin.mp3
 nabiz,seco,palabra,na_biz.mp3
-nacub,nuevo,palabra,na_cub.mp3
+nacub',nuevo,palabra,audio37.mp3
 nadoo,manso,palabra,na_doo.mp3
 nadoo laz,ser muy tranquilo,frase,na_doo_laz.mp3
 nagá,estar verde,palabra,na_gaa.mp3
@@ -599,7 +597,7 @@ runa gan,lo que gano (ganar),frase,runa_gan.mp3
 runbio lan,la  o lo conoces,frase,runbio_lan.mp3
 runbiu ,lo conoces (conocer),frase,runbiu_.mp3
 ruúl,mitad,palabra,rul.mp3
-rvest yubtu,estar,palabra,rvest_yubtu.mp3
+rvest yubtu,estar,palabra,audio38.mp3
 rzieni,"sentir (el ,ella)",palabra,rzieni.mp3
 rzienia,siento (yo),palabra,rzienia.mp3
 sacru,bonito,palabra,sa_cru.mp3
@@ -609,17 +607,17 @@ sack ulli,buenas tardes (medio dia),frase,sack_ulli.mp3
 sackr sil ,buenos dias,frase,sack_rsil_.mp3
 sak rsil lo irate yubtu,buenos dias atodos,frase,rsil_lo_rate.mp3
 sale he,se puede?,frase,sale-he.mp3
-sarcasu,como quieres,frase,sar-casu.mp3
+sarcasu,como quieres,frase,sar_casu.mp3
 scan,banca,palabra,scan.mp3
 sdie,sandia,frutas,sdie.mp3
 sed,sal,alimento,sed.mp3
 sed no ah,eres chingon,frase,audio04.mp3
 sek no,asi eres,frase,sek_no.mp3
 sek rilua,asi me parece,frase,sek_rilua.mp3
-sek gaki,asi se hara,frase,sek-gaki.mp3
-sek this iniu,como digas,frase,sek-this_iniu.mp3
+sek gaki,asi se hara,frase,sek_gaki.mp3
+sek this iniu,como digas,frase,sek_this_iniu.mp3
 sek tis,asi nomas,frase,sek-tis.mp3
-sek tis nir casu,como querias,frase,sek-tis-nir-casu.mp3
+sek tis nir casu,como querias,frase,sektis_nir_casu.mp3
 sey nam,asi es,frase,sey_nam.mp3
 sha ga ki,como se le va hacer,frase,sha-ga-ki.mp3
 she,porque ,palabra,she.mp3
@@ -628,7 +626,7 @@ shgab,pensar,palabra,shgab.mp3
 shi,que,palabra,shi.mp3
 shi ca yu nu,que estan haciendo,frase,shi_ca_yu_nu.mp3
 shi cos canie,que estoy diciendo,frase,shi_cos_canie.mp3
-shi cos go,que cosa vas a comer,frase,shi_cos_go.mp3
+shi cos go,que cosa vas a comer,frase,audio36.mp3
 shi cos nain,que tiene (estado fisico),frase,shi_cos_nain.mp3
 shi cuens,por qué tanto,palabra,shi_cuens.mp3
 shi cuens runu shgab,porque tanto piensas,frase,cuens_runu.mp3
