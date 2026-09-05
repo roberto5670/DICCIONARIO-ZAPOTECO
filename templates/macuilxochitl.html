@@ -46,7 +46,8 @@
 					.gallery-item img {
 					width: 100%;
 					height: 200px;
-					object-fit: cover;
+					object-fit: contain; /* Ajusta la imagen completa sin recortar */
+					background-color: #f0f0f0; /* Fondo para rellenar los bordes si la imagen es delgada o alta */
 					display: block;
 					}
 					.gallery-item p {
@@ -79,7 +80,6 @@
 			<h1>San Mateo Macuilxóchitl, Oaxaca</h1>
 			<p>Conoce un poco más sobre la historia, el paisaje, las zonas arqueológicas y la cultura de este hermoso pueblo a través de nuestra galería fotográfica.</p>
 			<p>ubicado al 21 kms al este de la capital oaxaqueña.</p>
-
 			<div class="gallery">
 				<!-- 1. Cultura y Tradición -->
 				<div class="gallery-item">
@@ -90,7 +90,6 @@
 					<img src="{{ url_for('static', filename='images/museo_comunitario.jpg') }}" alt="Museo Comunitario">
 						<p>Museo Comunitario</p>
 					</div>
-
 				<!-- 2. Arqueología -->
 				<div class="gallery-item">
 					<img src="{{ url_for('static', filename='images/ruinas_dainzu01.jpg') }}" alt="Ruinas de Dainzú">
@@ -100,7 +99,6 @@
 					<img src="{{ url_for('static', filename='images/ruinas_dainzu02.jpg') }}" alt="Ruinas de Dainzú vista 2">
 						<p>Estructuras de Dainzú</p>
 					</div>
-
 				<!-- 3. Arquitectura y Comunidad -->
 				<div class="gallery-item">
 					<img src="{{ url_for('static', filename='images/vista_iglesia.jpg') }}" alt="Vista de la Iglesia">
@@ -122,7 +120,6 @@
 					<img src="{{ url_for('static', filename='images/panteon.jpg') }}" alt="Vista entrada del panteon">
 						<p>Panteón de la comunidad</p>
 					</div>
-
 				<!-- 4. Vistas Panorámicas del Pueblo -->
 				<div class="gallery-item">
 					<img src="{{ url_for('static', filename='images/vista_maculxochitl01.jpg') }}" alt="Vista general de Macuilxóchitl">
@@ -132,7 +129,6 @@
 					<img src="{{ url_for('static', filename='images/vista_panoramica2.jpg') }}" alt="Vista panoramica">
 						<p>Vista panorámica</p>
 					</div>
-
 				<!-- 5. Cerros y Paisajes Naturales -->
 				<div class="gallery-item">
 					<img src="{{ url_for('static', filename='images/cerro_danush.jpg') }}" alt="Cerro Danush">
@@ -159,7 +155,6 @@
 						<p>Vista Cerro Dan Zu</p>
 					</div>
 			</div>
-
 			<a href="{{ url_for('index') }}" class="back-link">← Volver al inicio / Diccionario</a>
 		</div>
 	</body>
